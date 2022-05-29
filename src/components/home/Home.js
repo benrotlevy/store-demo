@@ -34,7 +34,7 @@ export class Home extends React.Component {
                     <div>
                         <h3>{product.name}</h3> 
                         <h4>{product.price}$</h4> 
-                        <img className="small-image" src={product.image}/> 
+                        <img alt="#" className="small-image" src={product.image}/> 
                     </div>
                 </Link>
                 <button className="delete-btn" onClick={()=> this.delete(product.id)}>Delete</button></div>

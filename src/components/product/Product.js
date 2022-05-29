@@ -35,7 +35,7 @@ export class Product extends React.Component {
                     <><div>
                         <h1>{this.state.product.name}</h1>
                         <h2>{this.state.product.price}$</h2>
-                        <img className="large-img" src={this.state.product.image} />
+                        <img alt="#" className="large-img" src={this.state.product.image} />
                         <p>{this.state.product.description}</p>
                     </div>
                     <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
