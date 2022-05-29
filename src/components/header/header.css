@@ -1,0 +1,22 @@
+header {
+    background-color: rgb(63, 54, 54);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.menu-btn {
+    /* margin: 0 1rem; */
+    padding: 1rem 1rem;
+    background-color: rgb(29, 22, 22);
+    color: #ccc;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.menu-btn:hover {
+    background-color: #ccc;
+    color: rgb(29, 22, 22);
+}

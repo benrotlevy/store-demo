@@ -1,0 +1,43 @@
+.small-image {
+    width: 10rem;
+    height: 10rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+  
+a:visited {
+    color: black;
+}
+
+.product-box {
+    padding: 2rem;
+    background-color: #ccc;
+}
+
+.products-container {
+    margin: 3rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.delete-btn {
+    margin-top: 1rem;
+    background: rgb(63, 54, 54);
+    padding: 0.5rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.delete-btn:hover {
+    color: rgb(63, 54, 54);
+    background-color: #ccc;
+}
+

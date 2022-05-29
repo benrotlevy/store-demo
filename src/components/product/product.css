@@ -1,0 +1,33 @@
+main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.update-btn {
+    width: 100%;
+    margin-top: 1rem;
+    background: rgb(63, 54, 54);
+    padding: 0.5rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.update-btn:hover {
+    color: rgb(63, 54, 54);
+    background-color: #ccc;
+}
+
+@media (max-width: 700px) {
+    main {
+        margin: 1rem;
+        flex-direction: column;
+    }
+    .large-img {
+        width: 15rem;
+        height: 15rem;
+    }
+}
